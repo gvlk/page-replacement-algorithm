@@ -1,6 +1,6 @@
 # https://github.com/gvlk/page-replacement-algorithm
 # Leia o README.md
-
+from sys import exit
 from argparse import ArgumentParser
 from page_replacement_algorithm import PageReplacement
 
@@ -39,6 +39,5 @@ if __name__ == '__main__':
     input_file = args.input_file
 
     pr_instance = PageReplacement(pr_algorithm, memory_length, input_file)
-    pr_instance.run()
-
+    exit(pr_instance.run())
 
