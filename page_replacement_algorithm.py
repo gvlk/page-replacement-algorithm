@@ -76,7 +76,6 @@ class PageReplacement:
                     if referenced:
                         self.physical_memory[frame_index] = frame_word[:1] + "0"
 
-
                 # Escolhe um quadro pouco usado para liberar.
                 memory_frame = self.get_less_used_page(counters)
 

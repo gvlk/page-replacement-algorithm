@@ -1,5 +1,9 @@
+# Guilherme Azambuja - 149429
+# Pablo Guaicurus - 149449
+# Rafaela Barcelos - 149438
 # https://github.com/gvlk/page-replacement-algorithm
 # Leia o README.md
+
 from sys import exit
 from argparse import ArgumentParser
 from page_replacement_algorithm import PageReplacement
